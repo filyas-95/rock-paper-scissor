@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Luckiest+Guy|Mr+Dafoe" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet"
+	><link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Turret+Road:wght@800&display=swap" rel="stylesheet">
+		
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<head>
+			<meta charset="UTF-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<title>Document</title>
+		
+			<script src="app.js"></script>
+		</head>
+		<body>
+			<header>
+				<h1 class="font-1">ROCK<span class="font-2"> PAPER</span> <span class="font-3">SCISSORS GAME</span></h1>
+				
+			</header>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="all-score">
+			<h1 >USER SCORE:	<span id="useScore">0 </span></h1>
+			<h1 id="fonnt" >COMP SCORE :	<span id="CompScore">0</span></h1>
+			<h1 id="fonnt" >TOTAL DRAWS :	<span id="DrawScore">0</span></h1>
+			<button id="reset" onclick="resetting()">
+				RESET SCORE
+			</button>
+			</div>
+			</div>
+			</div>
+		</div>
+			
+
+			<!-- <div id="draw"></div><div id="scorePlayer"><span >0</span></div><div id="scoreComputer"><span >0</span></div> -->
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="rock" onclick="rock()">
+							<img src="img/rock.png" />
+							<h3 id="u"></h3>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="paper" onclick="paper()">
+							<img src="img/paper.png" />
+							<h3 id="u"></h3>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="scissors" onclick="scissors()">
+							<img src="img/scissors.png" />
+							<h3 id="u"></h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div id="user">
+							<!-- <button onclick="rock()"> ROCK</button><button onclick="paper()">PAPER</button><button onclick="scissors()">SCISSORS</button> -->
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div
+						id="status"
+			
+					></div>
+					</div>
+					<div class="col-lg-4">
+					
+						<div id="computer">
+							
+
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 co-xs-12 col-sm-12 col-12 col-lg-offset-2">
+						<h1 id="result"></h1>
+						</div>
+						<div class="col-lg-12" id="draw-gif">
+
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+		</body>
+	</html>

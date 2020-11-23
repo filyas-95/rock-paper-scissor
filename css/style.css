@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300,500');
+
+
+.rock img{
+
+    position: relative;
+    left: 15%;
+    /* padding-right: ; */
+    width: 70%;
+    border-radius: 70%;
+}
+.paper img{
+
+    position: relative;
+    left: 15%;
+    /* padding-right: ; */
+    width: 70%;
+    border-radius: 70%;
+}
+
+.scissors img{
+
+    position: relative;
+    left: 15%;
+    /* padding-right: ; */
+    width: 70%;
+    border-radius: 70%;
+}
+
+
+header h1 {
+    /* font-family: 'Mr'; */
+    text-align: center;
+}
+
+header h2 {
+
+    text-align: center;
+}
+
+div h2{
+    text-align: center;
+}
+
+
+
+.giph-lose{
+    width: 83%;
+    border-radius: 50%;
+    
+    height: 60%;
+}
+
+.usergif{
+    width: 100%;
+    /* width: 50%; */
+    border-radius: 50%;
+
+}
+
+header{
+
+    background-color: white;
+    color: black;
+}
+body{
+    font-size: 20px;
+	background: #24272e;
+	color: #fff;
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+}
+
+.noresult{
+    width: 50%;
+    /* border-radius: 50%; */
+
+
+}
+
+.all-score{
+
+    text-align: center;
+}
+.font-1
+{
+    font-family: 'Henny Penny', cursive;
+    font-family: 'Turret Road', cursive;
+}
+.font-2
+{
+    font-family: 'Amatic SC', cursive;
+}
+.font-3
+{
+    font-family: 'Amatic SC', cursive;
+
+}
+
+.compgif{
+
+    width: 65%;
+    border-radius: 50%;
+}
+
+#result{
+
+    text-align: center;
+    color: yellow;
+}
+.computerGif{
+
+    border-radius: 50%;
+}
+
+#reset{
+
+    background-color:black;
+    color: white;
+    /* font-weight: bold; */
+    border: none;
+padding:10px;
+margin-bottom: 10px;
+}
+
+#reset:hover{
+
+
+    background-color: white;
+    color: black;
+    transition: 1s;
+    border-radius: 15px;
+}
+
+#u{
+    display: none;
+}
+
+#status{
+
+    font-size: 17px;
+    padding-top: 16px;
+}
+ #computer{
+     
+    padding-top: 10px;
+
+ }
+ #user{
+    padding-top: 10px;
+ }
